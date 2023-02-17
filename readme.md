@@ -12,7 +12,7 @@ go mod init _project_name_
 go get github.com/labstack/echo/v4
 ```
 
-Package `labstack/echo` implements a request router and dispatcher for matching incoming requests to their respective handler.
+Package `labstack/echo/v4` implements a request router and dispatcher for matching incoming requests to their respective handler.
 
 ### 3. Create `main.go` file and write this below code to print 'Hello world'
 
@@ -25,7 +25,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/labstack/echo"
+	"github.com/labstack/echo/v4"
 )
 
 func main() {
